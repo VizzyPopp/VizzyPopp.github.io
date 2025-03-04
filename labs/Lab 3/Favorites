@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Favorites</title>
+</head>
+
+<body>
+  <h1>Viz's Favorite Games, Movies, and Music</h1>
+  <hr/>
+  
+  <p> 
+     This page is all about a few of my favorite things. I manage to find most of these interests
+	 from suggestions from other people in my life whether it be online or in person. Of course, 
+	 it's with the help of the internet most times. 
+  </p>
+  
+  <p>
+     For games, I prefer playing casual where I can play alone, but sometimes I play with my friends
+	 and if I do it's usually accesible by everyone. For movies I usually end up finding them on my own
+	 through looking at the selection on whatever streaming service I'm using but sometimes I find them
+	 talked about online first. Lastly, for songs I find them through other people but the majority
+	 of new songs I find are reccomended to me through Spotify's algorithm.
+  </p>
+  
+  <h2>Favorite Games</h2>
+  <ol>
+    <li>Soul Knight</li>
+	<li>Roblox</li>
+	<li>Minecraft</li>
+  </ol>
+  
+  <h2>Favorite Movies</h2>
+  <ul>
+    <li>Train to Busan</li>
+	<li>Happy Feet</li>
+	<li>A Whisker Away</li>
+  </ul>
+  
+  <h2>Favorite Songs</h2>
+  <dl>
+    <dt>Collard Greens - ScHoolboy Q, Kendrick Lamar</dt>
+	<dd>The first song I played when I got my car. I could never get tired of it no matter how much I listen to it.</dd>
+	
+	<dt>Excursions - A Tribe Called Quest</dt>
+	<dd>I found this song on Twitter one day while I was scrolling and decided to listen to it. I mostly like the music more than the lyrics.</dd>
+	
+	<dt>Chove Chuva - Jorge Ben Jor</dt>
+	<dd>One year I was in the top 10% of listeners for spotify's DJ and this song played which I ended up adoring.</dd>
+  </dl>
+  
+</body>
+
+</html>

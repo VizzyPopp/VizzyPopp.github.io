@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tables</title>
+  <style>
+    td{
+	  background-color: rgb(200, 200, 200);
+	  
+	}
+	table{
+	   border: 1px solid black
+	}
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>Venue Ticket Sales<h2>
+    <table>
+      <tr>
+	    <th></th>
+  	  <th scope="col">Saturday</th>
+  	  <th scope="col">Sunday</th>
+	  </tr>
+      <tr>
+	    <th scope="row">Tickets Sold:</th>
+	    <td>120</td>
+	    <td>135</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">Total Sales:</th>
+	    <td>$600</td>
+	    <td>$675</td>
+	  </tr>
+    </table>
+  </div>
+  
+  <div>
+    <h2>Weekly Schedule<h2>
+	<table>
+	  <tr>
+	    <th></th>
+		<th>6am</th>
+        <th>7am</th>
+		<th>8am</th>
+		<th>9am</th>
+		<th>10am</th>
+		<th>11pm</th>
+		<th>12pm</th>
+		<th>12:10pm</th>
+		<th>1pm</th>
+		<th>2pm</th>
+		<th>3pm</th>
+		<th>4pm</th>
+		<th>5pm</th>
+	  </tr>
+	  <tr>
+	    <th>Monday</th>
+		<td colspan="2">Sleep</td>
+		<td>Get up and Get Ready</td>
+		<td>Drive</td>
+		<td colspan="3">Web Development</td>
+		<td colspan="3">Project Management</td>
+	    <td>Drive</td>
+		<td colspan="2">Watch little brother and chill</td>
+
+	  </tr>
+	  <tr>
+		<th>Tuesday</th>
+		<td>Get up and Get Ready</td>
+		<td>Drive</td>
+		<td colspan="3">Intro to Game Design & Dev.</td>
+		<td colspan="3">Probably Sleep</td>
+		<td>Drive</td>
+		<td colspan="4">3-D Modeling</td>
+	  <tr>
+		<th>Wednesday</th>
+		<td colspan="2">Sleep</td>
+		<td>Get up and Get Ready</td>
+		<td>Drive</td>
+		<td colspan="3">Web Development</td>
+		<td colspan="3">Project Management</td>
+		<td>Drive</td>
+		<td colspan="2">Watch little brother and chill</td>
+	  </tr>
+	  <tr>
+		<th>Tuesday</th>
+		<td>Get up and Get Ready</td>
+		<td>Drive</td>
+		<td colspan="3">Intro to Game Design & Dev.</td>
+		<td colspan="3">Probably Sleep</td>
+		<td>Drive</td>
+		<td colspan="4">3-D Modeling</td>
+	  </tr>
+	</table>
+  </div>
+    
+  <div>
+    <h2>TV Channels</h2>
+	<table>
+	  <tr>
+	    <th></th>
+		<th>ABC</th>
+		<th>BBC</th>
+		<th>CNN</th>
+	  </tr>
+	  <tr>
+	    <th>6pm - 7pm</th>
+		<td rowspan="2">Movie</td>
+		<td>Comedy</td>
+		<td>News</td>
+	  </tr>
+	  <tr>
+	    <th>7pm - 8pm</th>
+		<td>Sports</td>
+		<td>Current Affairs</td>
+	  </tr>
+	</table>
+  </div>
+</body>
+
+</html>

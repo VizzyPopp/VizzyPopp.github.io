@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Page</title>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sigmar&display=swap');
+		h1, h2 {
+			background-color: rgb(165, 216, 242);
+            font-family: 'Lilita One', sans-serif;
+			font-size: 2em;
+			color: rgb(78, 151, 224);
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Contact -->
+	<main>
+		<section>
+			<h2>Contact Form</h2>
+			<hr/>
+			<p>
+				Get in touch! Provide your contact information below so I can reach out to you when I can!
+			</p>
+			<form action="#" method="GET">
+				<label>Name: <br/>
+					<input type="text" name="name" max length="15" placeholder="Your Name"/>
+				</label><br/> 
+				<label>Email:<br/>
+					<input type="email" name="email" placeholder="Your Email"/>
+				</label> <br/>
+				<label>Subject:<br/>
+					<input type="subject" name="subject" placeholder="Why are you contacting me?"/>
+				</label> <br/>
+				<p>Message:
+				<br/>
+				<textarea name="comment" cols="20" rows="4"></textarea>
+				</p>
+				<input type="submit" value="submit"/>
+				<input type="reset" value="reset"/>
+			</form>
+		</section>
+
+	<!-- Survey -->
+		<section>
+			<!-- Survey intro -->
+			<h2>Quick Survey</h2>
+			<hr/>
+			<p>
+				Let me know how you got here and what you think of my website!
+			</p>
+		
+			<!-- Drop Down Buttons -->
+			<p>Question 1: How did you find my portfolio?
+				<br/>
+				<select name="exposure">
+					<option value="google">Google Search</option>
+					<option value="socials">Social Media</option>
+					<option value="referral">Referral</option>
+					<option value="other">Other</option>
+				</select>
+			</p>
+		
+			<!--Ranking Options -->
+			<p>Rate your overall experience on my site:
+				<br />
+				<input type="radio" name="1" value="1" checked="checked"/> 1
+				<input type="radio" name="2" value="2"/> 2
+				<input type="radio" name="3" value="3"/> 3
+				<input type="radio" name="4" value="4"/> 4
+				<input type="radio" name="5" value="5"/> 5
+			</p>
+		
+			<!--Comment Box -->
+			<p>Any Additional Comments?
+				<br/>
+				<textarea name="comment" cols="20" rows="4"></textarea>
+				</p>
+			<input type="submit" value="submit"/>
+			<input type="reset" value="reset"/>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2025 Viz Teve</p>
+	</footer>
+	
+</body>
+
+</html>

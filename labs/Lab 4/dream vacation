@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <h1><u>Ham</u></h1>
+  <p>My cat looks like this</p>
+  <img src="images/ham.webp" alt="ham" width= "200px"/>
+  <p>He's very cute!</p>
+  <hr/>
+  <figure>
+    <img src= "images/hambo.jpg" alt="dumb lookin cat" width= "200px"/>
+	<figcaption>This cat looks dumb asl.</figcaption>
+  </figure>
+</body>
+
+</html>
