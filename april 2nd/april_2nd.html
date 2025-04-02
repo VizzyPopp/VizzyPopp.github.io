@@ -5,36 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="container.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <h1>Logo</h1>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main> 
-        <div id="feature">
-            <p>Feature</p>
-        </div>
-        <article>
-            <p>Column One</p>
-        </article>
-        <article>
-            <p>Column Two</p>
-        </article>
-        <article>
-            <p>Column Three</p>
-        </article>
-    </main>
-    <footer>
-        <p>&copy; Copyright 2025</p>
-    </footer>
+    <div class="container-12 clearfix">
+        <header class="grid_12">
+            <h1>Logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> 
+            <div id="feature" class="grid_12">
+                <p>Feature</p>
+            </div>
+            <article class="grid_4">
+                <p>Column One</p>
+            </article>
+            <article class="grid_4">
+                <p>Column Two</p>
+            </article>
+            <article class="grid_4">
+                <p>Column Three</p>
+            </article>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2025</p>
+        </footer>
+    </div>
 </body>
 </html>
