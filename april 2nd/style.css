@@ -3,36 +3,43 @@ body {
     margin: 0 auto;
 }
 
-main {
+/* main {
     overflow: auto;
     /* height: 100%; */
-}
+/* } */ 
 
-nav, #feature, footer {
-    /* background-color: #efefef;
-    padding: 10px; */
+nav, #feature, article, footer {
+    background-color: #efefef;
+    /* padding: 10px; */
     margin: 1%;
+    padding: 10px 0 5px;
 }
 
-.Left-column, .mid-column, .right-column {
+/* .Left-column, .mid-column, .right-column {
     /* background-color: #efefef; */
-    width: 31.3%;
+    /* width: 31.3%;
     float: left;
     margin: 1%;
-}
+} */ 
 
 li {
     display: inline;
     padding: 0.5em;
 }
 
-nav, footer {
+/* nav, footer {
     background-color: #efefef;
     padding: 0.5em 0;
-}
+} */
 
 #feature, article {
-    height: 10em;
-    margin-bottom: 1em;
-    background-color: #efefef;
+    height: 100px;
+    /* margin-bottom: 1em;
+    background-color: #efefef; */
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #782356;
+    text-align: center;
 }
