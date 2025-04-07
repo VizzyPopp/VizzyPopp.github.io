@@ -9,29 +9,12 @@ body {
     /* height: 100%; */
 /* } */ 
 
-#feature, article {
+article {
     /* background-color: #fed9b7; */
     /* padding: 10px; */
     margin: 1%;
     padding: 10px 0 5px;
-}
-
-/* .Left-column, .mid-column, .right-column {
-    /* background-color: #efefef; */
-    /* width: 31.3%;
-    float: left;
-    margin: 1%;
-} */ 
-
-/* nav, footer {
-    background-color: #efefef;
-    padding: 0.5em 0;
-} */
-
-#feature, article {
-    /* height: 100px; */
-    /* margin-bottom: 1em;
-    background-color: #efefef; */
+    height: 250px;
 }
 
 * {
