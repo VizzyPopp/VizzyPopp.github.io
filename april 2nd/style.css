@@ -1,6 +1,7 @@
 body {
     width: 90%;
     margin: 0 auto;
+    background-color: #ffd6ff;
 }
 
 /* main {
@@ -9,7 +10,7 @@ body {
 /* } */ 
 
 #feature, article, footer {
-    background-color: #D0F4DE;
+    background-color: #e7c6ff;
     /* padding: 10px; */
     margin: 1%;
     padding: 10px 0 5px;
