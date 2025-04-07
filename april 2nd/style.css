@@ -8,7 +8,7 @@ body {
     /* height: 100%; */
 /* } */ 
 
-nav, #feature, article, footer {
+#feature, article, footer {
     background-color: #efefef;
     /* padding: 10px; */
     margin: 1%;
@@ -21,11 +21,6 @@ nav, #feature, article, footer {
     float: left;
     margin: 1%;
 } */ 
-
-li {
-    display: inline;
-    padding: 0.5em;
-}
 
 /* nav, footer {
     background-color: #efefef;
