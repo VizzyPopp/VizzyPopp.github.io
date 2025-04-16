@@ -1,28 +1,45 @@
 * {
     background-color: #f1b6b5;
     }
+#page,body {
+background-color: white;
+}
 header {
 text-align: center;
+}
+nav {
+padding: 20px 0 20px;
+font-family:"Aboreto", system-ui;
 }
 hr {
 color: #ee898a;
 }
-body {
-background-color: white;
-}
 a {
 background-color: #f2a6a4;
+padding: 10px 0 10px;
+color: white;
+margin: 5px;
 }
 h2 {
-font-family: "Poetsen One", sans-serif;
+ font-family: "Aboreto", system-ui;
 font-weight: 400;
 font-size: 40px;
 font-style: normal;
 color: #f2a6a4;
 }
 p {
- font-family: "Patrick Hand", cursive;
+font-family: "Abel", sans-serif;
 font-weight: 400;
 font-style: normal;
+font-size: 25px;
 color: #323232;
+}
+#slogan {
+ font-family: "Abril Fatface", serif;
+text-align: center;
+background-color: #f2a6a4;
+color: white;
+padding: 10px 0 10px;
+width: 58%;
+border-radius: 20px;
 }
