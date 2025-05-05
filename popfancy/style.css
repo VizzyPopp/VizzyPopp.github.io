@@ -154,11 +154,17 @@ table {
 	#slogan {
 		font-size: 30px;
 	}
+	#page {
+		margin: 40px;
+	}
 }
 
 @media (max-width: 480px) {
 	header {
 		font-size: 1.2rem;
+	}
+	#page {
+		margin: 30px;
 	}
 	h2 {
 		20px;
