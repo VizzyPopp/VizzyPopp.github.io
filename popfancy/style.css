@@ -13,6 +13,7 @@ body {
 	align-items: center;
 	animation-name: open;
 	animation-duration: 1s;
+	
 } 
 header {
 text-align: center;
@@ -64,7 +65,7 @@ font-style: normal;
 color: #f2a6a4;
 margin: 35px;
 }
-p {
+p, address {
 font-family: "Abel", sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -158,7 +159,7 @@ table {
 	}
 	nav ul {
 		flex-direction: column;
-		align-items: center;
+		align-items: stretch;
 	}
 }
 
