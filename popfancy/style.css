@@ -64,6 +64,7 @@ font-size: 40px;
 font-style: normal;
 color: #f2a6a4;
 margin: 35px;
+
 }
 p, address {
 font-family: "Abel", sans-serif;
@@ -130,23 +131,35 @@ table {
 		flex-direction: column;
 		align-items: center;
 	}
-
+	h2 {
+		font-size: px;
+	}
 	main {
 		flex-direction: column;
 	}
 
 	.sidebar {
 		order: -1;
-		/* Show sidebar before main content */
+	}
+	footer p {
+		font-size: 16px;
+		margin: 10px;
+	}
+
+	footer a {
+		display: block;
+		width: fit-content;
+		max-width: 100%;
 	}
 }
 
-/* Media Query for phones */
 @media (max-width: 480px) {
 	header {
 		font-size: 1.2rem;
 	}
-
+	h2 {
+		20px;
+	}
 	nav a {
 		font-size: 0.9rem;
 		display: flex;
@@ -163,8 +176,8 @@ table {
 	}
 }
 
+
 footer {
-	/* padding: 20px; */
 	display: flex;
 	flex-direction: column;
 }
@@ -184,31 +197,15 @@ footer a {
 	white-space: nowrap; 
 }
 
-
-
-@media (max-width: 600px) {
-	footer p {
-		font-size: 16px;
-		margin: 10px;
-	}
-
-	footer a {
-		display: block;
-		width: fit-content;
-		max-width: 100%;
-	}
-}
-
 .map-container {
 	position: relative;
 	
-	padding-bottom: 56.25%; /* 16:9 ratio (can adjust to fit your needs) */
+	padding-bottom: 56.25%; 
 	height: 0;
 	overflow: hidden;
-	border-radius: 20px; /* optional: matches your rounded style */
-
+	border-radius: 20px;
 	display: block;
-	margin: 40px auto;   /* top/bottom: 40px, left/right auto-centered */
+	margin: 40px auto;  
 	max-width: 80%;
   }
   
