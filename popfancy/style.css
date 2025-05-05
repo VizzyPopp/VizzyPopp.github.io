@@ -5,7 +5,7 @@ body {
 }
 #page {
 	background-color: white; 
-	margin: 50px;
+	margin: 50px auto; /* auto horizontally centers */
 	border-color:  #ee898a;
 	border-style: solid;
 	border-width: 9px;
@@ -13,7 +13,8 @@ body {
 	align-items: center;
 	animation-name: open;
 	animation-duration: 1s;
-	
+	max-width: 900px;
+	box-sizing: border-box;
 } 
 header {
 text-align: center;
